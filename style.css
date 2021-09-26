@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&display=swap');
+
+:root {
+    --clr-primary: #651fff;
+    --clr-gray: #37474f;
+    --clr-gray-light: #b0bec5;
+  }
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1,h2 {
+    font-weight: bolder;
+    line-height: 1.2;
+}
+
+/* p{
+    margin: 5px 0;
+} */
+
+.centered {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.centered h1 {
+ text-align: center;
+ padding-top: 100px;
+ padding-bottom: 120px;
+ font-weight: bolder;
+ font-size: 68px;
+
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.6em;
+}
+
+
+.card {
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 9px;
+    position: relative;
+    width: 300px;
+    height: 100%;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+  
+}
+
+.card h2 {
+  padding-top: 4em;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 0rem;
+}
+
+.card p {
+  font-size: 4em;
+  font-weight: bolder;
+  animation: text 3s 1;
+}
+
+.card .photo {
+  font-size: 30px;
+  margin-bottom: 3em;
+  position: relative;top: -30px;
+  margin-left: 30px;
+  font-weight: lighter;
+}
+
+.card span {
+  color: gold;
+  position: relative;left: 15px;
+}
+
+
+
+.btn {
+background-color: gold; /* Green */
+  border: none;
+  color: black;
+  padding: 5px 52px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 26px;
+  position: relative;top: -80px;
+}
+
+
+
+.card:hover {
+  border: 5px solid gold;
+}
+
+
+
+
+
+@keyframes text { 
+    0%{
+        margin-bottom: -30px;
+    }
+}
+
+
+/* media queire */
+
