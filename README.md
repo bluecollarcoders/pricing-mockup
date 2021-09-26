@@ -8,3 +8,6 @@
 ### **tech used**
 * Html
 * Css 'Flex-box' and some animation
+
+## Check it out live
+[link to site click](https://blissful-hugle-7e732c.netlify.app/)
