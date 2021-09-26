@@ -1,6 +1,6 @@
 # **Pricing-mockup**
 
-## This is a mintbean challenge were we had to us a mockup and create a responsive layout 
+## This is a mintbean challenge were we had to use a mockup and create a responsive layout 
 
 ### **tech used**
 * Html
